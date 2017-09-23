@@ -22892,7 +22892,7 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 { className: _App2.default.TodoApp },
-                _react2.default.createElement(_Title2.default, { Title: 'ToDo Aplication', tasksNumber: this.state.data.length }),
+                _react2.default.createElement(_Title2.default, { title: 'ToDo Aplication', tasksNumber: this.state.data.length }),
                 'App components'
             );
         }
@@ -23224,10 +23224,10 @@ var _Title2 = _interopRequireDefault(_Title);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Title = function Title(props) {
+var title = function title(props) {
   return _react2.default.createElement(
     'h1',
-    { className: _Title2.default.Title },
+    { className: _Title2.default.title },
     props.title,
     ' ',
     _react2.default.createElement(
@@ -23240,7 +23240,7 @@ var Title = function Title(props) {
   );
 };
 
-exports.default = Title;
+exports.default = title;
 
 /***/ }),
 /* 197 */

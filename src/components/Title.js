@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Title.css';
 
-const Title = props => <h1 className={style.Title}>{props.title} <span>({props.tasksNumber})</span></h1>
+const title = props => <h1 className={style.title}>{props.title} <span>({props.tasksNumber})</span></h1>
 
-export default Title;
+export default title;
